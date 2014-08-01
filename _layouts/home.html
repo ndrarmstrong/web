@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<div class="container blog-main">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="media section-list" style="margin-top: 20px">
+                <a class="pull-left hidden-xs" href="{{ site.baseurl }}/about/">
+                    <img class="media-object" src="{{ site.baseurl }}/assets/images/homePhoto.jpg" />
+                </a>
+                <div class="media-body section-list-body">
+                    <p>
+                        <strong>Nicholas Armstrong</strong> is a technology enthusiast living in Waterloo, Ontario.  My
+                        software development interests are UI/UX, web performance, and web services.
+                    </p>
+                    <p style="margin-top: 0px;">
+                        I work frequently with
+                        <a href="http://nodejs.org">node.js</a>, <a href="http://backbonejs.org">Backbone</a>,
+                        <a href="http://getbootstrap.com">Bootstrap</a>,
+                        <a href="http://postgresql.org">PostgresSQL</a>, <a href="http://dev.windows.com/">C#/WPF</a>,
+                        and <a href="http://developer.android.com/">Java</a> on Android, Linux, and Windows.
+                    </p>
+                    <p style="margin-top: 0px;">
+                        I am currrently VP Engineering at <a href="http://pravala.com">Pravala Networks</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <h3 style="margin-top: 40px; margin-bottom: 0px;">Articles</h3>
+        </div>
+    </div>
+    <div class="row">
+        {% for post in site.posts limit:2 %}
+        <div class="col-lg-6">
+            <h3 style="margin-top: 15px"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+            <p style="margin-top: -10px"><small class="muted">{{ post.date | date: "%b %-d, %Y" }}</small></p>
+            <p style="margin-top: 0px">{{ post.excerpt | strip_html}}</p>
+            <p style="text-align: right; margin-top: -10px;" class="hidden-xs"><small><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &rarr;</small></a>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="blog-post">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>

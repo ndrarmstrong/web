@@ -1,0 +1,31 @@
+---
+layout: page
+title: Blog
+nav: blog
+sitemap:
+    priority: 0.6
+---
+<div class="home">
+    <div style="margin-top: -10px">
+        {% for post in paginator.posts %}
+          <h3 style="margin-top: 40px"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <p style="margin-top: -10px"><small class="muted">{{ post.date | date: "%b %-d, %Y" }}</small></p>
+          <p style="margin-top: 0px">{{ post.excerpt | strip_html}}</p>
+          <p style="text-align: right; margin-top: -10px;"><small><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &rarr;</small></a>
+        {% endfor %}
+    </div>
+
+    <div style="margin-top: 60px; hidden-print">
+        <ul class="pagination" style="float: left">
+            {% if paginator.previous_page %}
+                <li><a href="{{ paginator.previous_page_path }}">Previous</a></li>
+            {% endif %}
+            {% if paginator.next_page %}
+                <li><a href="{{ paginator.next_page_path }}">Next</a></li>
+            {% endif %}
+        </ul>
+
+        <p style="float:right; margin-top: 30px;">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+
+</div>

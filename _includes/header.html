@@ -1,0 +1,23 @@
+<div class="blog-masthead hidden-print">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <img class="pull-right blog-masthead-img hidden-xs" src="{{ site.baseurl }}/assets/images/header.svg"/>
+                <h5 class="blog-masthead-header">NicholasArmstrong.com</h5>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="blog-masthead-color hidden-print">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item {% if page.url == '/index.html' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+            <a class="blog-nav-item {% if page.nav == 'blog' %}active{% endif %}" href="{{ '/blog' | prepend: site.baseurl }}/">Blog</a>
+            <a class="blog-nav-item {% if page.nav == 'portfolio' %}active{% endif %}" href="{{ '/portfolio' | prepend: site.baseurl }}/">Portfolio</a>
+            <a class="blog-nav-item {% if page.nav == 'projects' %}active{% endif %}" href="{{ '/projects' | prepend: site.baseurl }}/">Projects</a>
+            <a class="blog-nav-item {% if page.nav == 'about' %}active{% endif %}" href="{{ '/about' | prepend: site.baseurl }}/">About</a>
+        </nav>
+    </div>
+</div>

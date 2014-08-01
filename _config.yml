@@ -1,0 +1,16 @@
+# Site settings
+title: Nicholas Armstrong
+email: contact@nicholasarmstrong.com
+author: Nicholas Armstrong
+name: NicholasArmstrong.com
+description: "Occasional thoughts of a Canadian software developers on web, desktop, and mobile"
+baseurl: ""
+url: "http://nicholasarmstrong.com"
+paginate: 10
+paginate_path: "blog/page/:num"
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:title
+exclude: [bootstrap-3.2.0, Gruntfile.js, node_modules, package.json, README.md, assets-copy, assets-build, tools]
+highlighter: pygments

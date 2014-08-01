@@ -1,0 +1,10 @@
+---
+layout: page
+published: true
+title: There's nothing here :(
+sitemap:
+    exclude: true
+---
+The page you were looking for can't be found (404).
+
+Try browsing from one of the links above, or [email me]({{ site.baseurl }}/about/) if you want some help.
