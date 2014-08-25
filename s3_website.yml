@@ -1,0 +1,31 @@
+#
+# s3_website configuration
+#
+
+# S3 identity
+s3_id: <%= ENV['WEBSITE_S3_ID'] %>
+s3_secret: <%= ENV['WEBSITE_S3_SECRET'] %>
+s3_bucket: <%= ENV['WEBSITE_S3_BUCKET'] %>
+
+# S3 Settings
+max_age:
+  "assets/*": <%= 60 * 60 * 24 %>
+  "*": <%= 60 * 60 %>
+gzip: true
+redirects:
+    about/contact/index.html: about/index.html
+
+# Cloudfront settings
+cloudfront_distribution_id: E1X56ZMHGRR11I
+cloudfront_distribution_config:
+   default_cache_behavior:
+     min_TTL: <%= 60 * 60 %>
+# s3_website doesn't support multiple hostnames
+# (https://github.com/laurilehmijoki/s3_website/issues/108)
+# so set them manually on cloudfront distribution above
+
+# Increase upload concurrency
+concurrency_level: 5
+
+
+# Run s3_website cfg create for examples of all configuration options

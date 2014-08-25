@@ -20,6 +20,11 @@ module.exports = function (grunt) {
             // Build Jekyll site to _site (release config)
             "jekyll-release": {
                 command: "jekyll build --config _config.yml,_config_release.yml"
+            },
+            // Deploy to S3 (NB: s3_website.yml must be present -
+            // use s3_website cfg create to generate)
+            "s3-push": {
+                command: "s3_website push"
             }
         },
 
@@ -140,10 +145,13 @@ module.exports = function (grunt) {
     grunt.registerTask('rebuild', ['clean', 'exec:jekyll-develop', 'build-post'])
 
     // 'release' builds the site for release
-    grunt.registerTask('release', ['exec:jekyll-release', 'build-post', 'cssmin:assets', 'htmlmin:site']);
+    grunt.registerTask('release', ['build-pre', 'exec:jekyll-release', 'build-post', 'cssmin:assets', 'htmlmin:site']);
 
     // 'develop' re-builds whenever the source files change
     grunt.registerTask('develop', ['default', 'concurrent:develop']);
+
+    // 'deploy' uploads the latest site version to S3
+    grunt.registerTask('deploy', ['release', 'exec:s3-push']);
 
 
     // Grunt plugins
