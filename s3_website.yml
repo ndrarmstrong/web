@@ -8,6 +8,7 @@ s3_secret: <%= ENV['WEBSITE_S3_SECRET'] %>
 s3_bucket: <%= ENV['WEBSITE_S3_BUCKET'] %>
 
 # S3 Settings
+error_document: 404.html
 max_age:
   "assets/*": <%= 60 * 60 * 24 %>
   "*": <%= 60 * 60 %>
