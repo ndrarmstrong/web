@@ -2,7 +2,8 @@
 layout: post
 published: true
 title: Sideloading Windows 8 apps with WiX
-excerpt:
+excerpt: Using WiX to create a Windows Installer that can install and update Windows 8 (modern/metro/windows store)
+         apps for testing.
 ---
 
 I recently wrote a (modern/metro/windows store) app for one our partners that we wanted to deploy internally for testing
@@ -15,13 +16,16 @@ prior to a larger release.  This is known as *sideloading*.  Microsoft's policie
 
 Our devices are not domain-joined and this was not for permanent installation, so we went with option #3.  Microsoft
 doesn't make this particularly easy - and [TestFlight](http://testflightapp.com) does not support Windows - so I needed
-a way to make it easy for users to install the beta build and install updates throughout the test period.
+a way to make it easy for users to install the beta build and install updates throughout the test period.  The Windows
+Installer `.msi` format seemed like the perfect way to distribute builds, since it supports installations and upgrades
+for Windows applications, and can easily be deployed using various system administration tools.
 
-My normal go-to solution for applications on Windows is [WiX](http://wixtoolset.org), the "Windows Installer XML
+My normal go-to solution for writing `.msi` installers is [WiX](http://wixtoolset.org), the "Windows Installer XML
 Toolkit" - which makes Windows Installers survivable, if not easy.  And we were already using it for the accompanying
-Windows Service component, so it made sense to bundle our UI in the same package.
+Windows Service component, so it made sense to bundle our UI in the same package.  Unfortunately, the current version
+(3.8) of WiX has no built-in support for installing apps into the Windows modern environment.
 
-I couldn't find anybody else that had done this successfully -- so here is my solution.
+Here is how I rolled my own solution for installing Windows apps using WiX.
 
 
 ## Overview
