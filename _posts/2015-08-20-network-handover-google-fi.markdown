@@ -181,7 +181,7 @@ but operate on less networks as a result.
 Since you can use an off-the-shelf Nexus 6 with Fi (though I'm using one ordered with the service), I *suspect*
 that the Fi software is cutting down this scan to only Sprint/T-Mobile frequencies and technologies (CDMA/LTE
 for Sprint, 3G/LTE for T-Mobile).  I'm not sure if that is sufficient for their fast switch speed, or whether
-additional optimizations are used.  Whatever mechanism is used is significantly faster that a naïve search.
+additional optimizations are used.  Whatever mechanism is used is significantly faster than a naïve search.
 
 
 ## 4. Calls do handover from Wi-Fi to cellular...
@@ -282,5 +282,7 @@ chooses networks is not something I've had time to evaluate, but it's an area th
 
 Project Fi is certainly the first in a wave of products to disrupt the traditional operator business models, and I will be watching
 closely over the years to come to see how it changes and improves over time.
+
+[Discuss on Hacker News](https://news.ycombinator.com/item?id=10122691)
 
 (Thanks to David for reading a draft of this)
