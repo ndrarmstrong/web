@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: The Ideal Work Term Progression for Computer Engineers, part VI
+excerpt: The last article in a series on what you should be doing for each co-op work term.
 ---
 
 With their Computer Engineering degrees now complete, my classmates (and I, in a sense) are now working at -- or
