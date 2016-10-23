@@ -6,7 +6,7 @@ nav: portfolio
 ---
 
 <div class="post-img-left top-p hidden-xs">
-    <img src="{{ site.baseurl }}/assets/pages/portfolio/academics/courses_thumb.png"/>
+    <img class="post-img-150" src="{{ site.baseurl }}/assets/pages/portfolio/academics/courses_thumb.png"/>
 </div>
 
 Since a detailed description - or even a list! - of the courses I took while at university would turn out to be

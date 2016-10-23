@@ -173,6 +173,10 @@ p + p {
     margin-top: 56px;
 }
 
+.post-img-150 {
+    width: 150px;
+}
+
 /*
  * Code
  */
@@ -204,6 +208,10 @@ code {
 
 .section-list-body h3 {
     margin-top: 0px;
+}
+
+.section-list-thumbnail {
+    width: 150px;
 }
 
 /*

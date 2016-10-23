@@ -5,18 +5,28 @@ title: Employment History
 nav: portfolio
 ---
 
-This section presents my employment history since starting university in September 2004. I currently work for
-[Pravala](http://pravala.com), a software networking startup in Kitchener-Waterloo, Ontario.
+This section presents my employment history since starting university in September 2004. I currently work for [Carnegie
+Technologies](http://carnegietechnologies.com), a communications technology company with offices in Kitchener-Waterloo,
+Ontario, San Antonio, Texas, and Belgrade, Serbia.
 
 Previously, I spent co-op work terms at Microsoft, Systemgroup, GTAA, and Hydro One during my Bachelor of Applied
 Science in Computer Engineering at the University of Waterloo.
 
 <div class="post-img-left top-h hidden-xs">
-    <img src="{{ site.baseurl }}/assets/pages/portfolio/employment/EmploymentHistory.png"/>
+    <img style="width: 260px" src="{{ site.baseurl }}/assets/pages/portfolio/employment/EmploymentHistory.png"/>
 </div>
 
+## Carnegie Technologies
 
-## Pravala
+Pravala Networks joined the Carnegie Technologies family in February 2016.  Since that time, my responsibilities have
+grown to include management of Carnegie's entire North America software development team, and I work closely with our
+European development, QA, and Operations teams to build Carnegie's Network Convergence Platform™.
+
+An extension of what we worked on at Pravala, I now get to solve end-to-end communications problems by combining
+Carnegie's Hi-Fi Voice and Rich Messaging platform with gapless handover, bandwidth aggregation, and Wi-Fi access
+management.
+
+## Pravala Networks
 
 I first started with Pravala though an
 [NSERC IPS](http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/IPS-BESII_eng.asp) grant from the Canadian federal
@@ -34,7 +44,7 @@ Pravala's products revolve around the central theme of managing network connecti
 categories. The first category, policy-based network management, consists of tools for managing multiple network
 connections on mobile devices.  This includes tools for policy control, authentication, reporting, quality monitoring,
 Wi-Fi roaming, and network management. Network operators and computer OEMs use our platform to monitor and manage
-network connecitivity dynamically for Android, iOS, and Windows devices, as well as to offer unique connectivity
+network connectivity dynamically for Android, iOS, and Windows devices, as well as to offer unique connectivity
 services that take advantage of multiple wireless networks.
 
 The second category extends our network management/selection technology to simultaneous multi-network connectivity. By

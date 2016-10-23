@@ -8,16 +8,16 @@ sitemap:
 ---
 
 <div class="media section-list" style="margin-top: -15px">
-    <a class="pull-left hidden-xs" href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2013.12.pdf">
-        <img class="media-object" src="{{ site.baseurl }}/assets/pages/portfolio/resume/resume_thumb.png" />
+    <a class="pull-left hidden-xs" href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2016.10.pdf">
+        <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/portfolio/resume/resume_thumb.png" />
     </a>
     <div class="media-body section-list-body">
-        <h3><a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2013.12.pdf">Résumé</a></h3>
+        <h3><a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2016.10.pdf">Résumé</a></h3>
         <p>
-            <a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2013.12.pdf">My résumé</a>
+            <a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2016.10.pdf">My résumé</a>
             contains a compact description of my professional experience. Those looking for an exhaustive
             version of my professional and academic experience are best served by
-            <a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-CV-2013.12.pdf">my CV</a>.
+            <a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-CV-2016.10.pdf">my CV</a>.
         </p>
     </div>
 </div>
@@ -25,7 +25,7 @@ sitemap:
 
 <div class="media section-list">
     <a class="pull-left hidden-xs" href="{{ site.baseurl }}/portfolio/employment/">
-        <img class="media-object" src="{{ site.baseurl }}/assets/pages/portfolio/employment/employment_thumb.png" />
+        <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/portfolio/employment/employment_thumb.png" />
     </a>
     <div class="media-body section-list-body">
         <h3><a href="{{ site.baseurl }}/portfolio/employment/">Employment History</a></h3>
@@ -40,7 +40,7 @@ sitemap:
 
 <div class="media section-list">
     <a class="pull-left hidden-xs" href="{{ site.baseurl }}/portfolio/academics/">
-        <img class="media-object" src="{{ site.baseurl }}/assets/pages/portfolio/academics/academics_thumb.png" />
+        <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/portfolio/academics/academics_thumb.png" />
     </a>
     <div class="media-body section-list-body">
         <h3><a href="{{ site.baseurl }}/portfolio/academics/">Academic History</a></h3>
@@ -56,7 +56,7 @@ sitemap:
 
 <div class="media section-list">
     <a class="pull-left hidden-xs" href="http://channel9.msdn.com/shows/Continuum/PhotoSuru/">
-        <img class="media-object" src="{{ site.baseurl }}/assets/pages/portfolio/photosuru/photoSuru_thumb.png" />
+        <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/portfolio/photosuru/photoSuru_thumb.png" />
     </a>
     <div class="media-body section-list-body">
         <h3><a href="http://channel9.msdn.com/shows/Continuum/PhotoSuru/">PhotoSuru</a></h3>
@@ -72,7 +72,7 @@ sitemap:
 
 <div class="media section-list">
     <a class="pull-left hidden-xs" href="http://brevets-patents.ic.gc.ca/opic-cipo/cpd/eng/patent/2791523/summary.html">
-        <img class="media-object" src="{{ site.baseurl }}/assets/pages/portfolio/patents/patent_thumb.png" />
+        <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/portfolio/patents/patent_thumb.png" />
     </a>
     <div class="media-body section-list-body">
         <h3><a href="http://brevets-patents.ic.gc.ca/opic-cipo/cpd/eng/patent/2791523/summary.html">Patents</a></h3>

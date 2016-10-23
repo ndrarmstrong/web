@@ -7,7 +7,7 @@ excerpt: A desktop background commemorating the 100+ hours my group members and 
 ---
 
 <div class="post-img-left top-p hidden-xs"><a href="{{ site.baseurl }}/assets/posts/2007-09-23/comp_coldfire.jpg">
-    <img src="{{ site.baseurl }}/assets/posts/2007-09-23/comp_coldfire-150x150.jpg"/>
+    <img class="post-img-150" src="{{ site.baseurl }}/assets/posts/2007-09-23/comp_coldfire-150x150.jpg"/>
 </a></div>
 
 After wasting what seemed like an eternity and actually ended up being 100+ hours in a dingy lab over the course of one

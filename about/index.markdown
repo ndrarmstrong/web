@@ -8,18 +8,22 @@ sitemap:
 ---
 
 <div class="post-img-left top-p">
-    <img src="{{ site.baseurl }}/assets/pages/about/AboutPhoto.jpg" title="Nicholas Armstrong" alt="Nicholas Armstrong"/>
+    <img class="post-img-150" src="{{ site.baseurl }}/assets/pages/about/NicholasArmstrong.jpg" title="Nicholas Armstrong" alt="Nicholas Armstrong"/>
 </div>
 
-I'm **Nicholas Armstrong**, a software program manager and developer living and working in Waterloo, Ontario, Canada. I
+I'm **Nicholas Armstrong**, an engineering manager and developer living and working in Waterloo, Ontario, Canada. I
 moved to Waterloo in 2004 to pursue an undergraduate degree in Computer Engineering at the University of Waterloo, and
 followed that up with a Master's of Applied Science in Electrical and Computer Engineering, also at the University of
 Waterloo. My thesis proposed a technique for speeding up web browsing over mobile networks through a proxy server that
-scans server responses and pushes content to the user just-in-time. Since 2009, I have held a leadership role at <a
-title="Pravala Inc." href="http://www.pravala.com">Pravala</a>, a startup focused on improving multi-network experiences
-on mobile devices through Wi-Fi offload, bandwidth aggregation, quality monitoring, and network policy. At Pravala, I
-organize development activities, write code, architect web infrastructure, develop technical sales material, evaluate
-market positioning, and work directly with our customers around the globe.
+scans server responses and pushes content to the user just-in-time.
+
+Since 2009, I have held leadership roles at  <a title="Carnegie Technologies" href="http://www.pravala.com">Carnegie
+Technologies</a> and <a title="Pravala Networks" href="http://www.pravala.com">Pravala Networks</a>, where I supervise
+and mentor developers, organize development activities, write code, architect applications, write patents and technical
+sales material, and work directly with our customers around the globe.  Pravala Networks joined the Carnegie
+Technologies family in 2016, where I am now Head of Software Development, North America.  Carnegie’s Network Convergence
+Platform™ offers truly ubiquitous, always-on connectivity between Wi-Fi and cellular networks, for voice and video with
+no gaps and no dropped sessions.
 
 Undergraduate Computer Engineering at Waterloo is a Co-operative Education degree program, which meant that, starting at
 the end of my first undergraduate year, I switched every four months between school and working for a company in my
@@ -29,9 +33,8 @@ September 2006 and September 2008 as a software consultant, working out of their
 client sites around the Greater Toronto Area. I spent my last two work terms (between January 2008 and December 2008) on
 the Windows Presentation Foundation team at Microsoft, once as a Software Design Engineer (SDE) Intern and once as a
 Program Manager Intern. During those terms at Microsoft, I designed and developed <a
-href="http://www.photosuru.com/">photoSuru</a>, a WPF photo viewing developer sample application that has garnered <a
-href="http://channel9.msdn.com/pdc2008/KYN02/">some</a> <a
-href="http://channel9.msdn.com/shows/Continuum/PhotoSuru/">fame</a>.
+href="http://channel9.msdn.com/shows/Continuum/PhotoSuru/">photoSuru</a>, a WPF photo viewing sample
+application presented in the <a href="http://channel9.msdn.com/pdc2008/KYN02/">PDC 2008 Keynote</a>.
 
 My development interests include user experience, interface design, and high performance web applications and web
 services. My recent work has focused on delivering high-performance web services to drive mobile client and web

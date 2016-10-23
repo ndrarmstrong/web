@@ -12,7 +12,7 @@ found in the [Portfolio]({{ site.baseurl }}/portfolio/) and [Blog]({{ site.baseu
 
 <div class="media section-list">
     <a class="pull-left hidden-xs" href="http://hdl.handle.net/10012/6256">
-        <img class="media-object" src="{{ site.baseurl }}/assets/pages/projects/masters/thesis_thumb.png" />
+        <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/projects/masters/thesis_thumb.png" />
     </a>
     <div class="media-body section-list-body">
         <h3><a href="http://hdl.handle.net/10012/6256">Masters Thesis</a></h3>
@@ -28,7 +28,7 @@ found in the [Portfolio]({{ site.baseurl }}/portfolio/) and [Blog]({{ site.baseu
 
 <div class="media section-list">
     <a class="pull-left hidden-xs" href="{{ site.baseurl }}/projects/teaching/ece150/">
-        <img class="media-object" src="{{ site.baseurl }}/assets/pages/projects/ece150/ece150_thumb.png" />
+        <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/projects/ece150/ece150_thumb.png" />
     </a>
     <div class="media-body section-list-body">
         <h3><a href="{{ site.baseurl }}/projects/teaching/ece150/">ECE 150 Resources</a></h3>
@@ -43,7 +43,7 @@ found in the [Portfolio]({{ site.baseurl }}/portfolio/) and [Blog]({{ site.baseu
 
 <div class="media section-list">
     <a class="pull-left hidden-xs" href="{% post_url 2007-09-26-things-you-learn-in-engineering %}">
-        <img class="media-object" src="{{ site.baseurl }}/assets/pages/projects/tylie/tylie_thumb.png" />
+        <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/projects/tylie/tylie_thumb.png" />
     </a>
     <div class="media-body section-list-body">
         <h3><a href="{% post_url 2007-09-26-things-you-learn-in-engineering %}">
@@ -62,7 +62,7 @@ found in the [Portfolio]({{ site.baseurl }}/portfolio/) and [Blog]({{ site.baseu
 
 <div class="media section-list">
     <a class="pull-left hidden-xs" href="{% post_url 2007-09-23-coldfire-the-computer-engineering-experience %}">
-        <img class="media-object" src="{{ site.baseurl }}/assets/pages/projects/coldfire/coldfire_thumb.png" />
+        <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/projects/coldfire/coldfire_thumb.png" />
     </a>
     <div class="media-body section-list-body">
         <h3><a href="{% post_url 2007-09-23-coldfire-the-computer-engineering-experience %}">
@@ -79,7 +79,7 @@ found in the [Portfolio]({{ site.baseurl }}/portfolio/) and [Blog]({{ site.baseu
 
 <div class="media section-list">
     <a class="pull-left hidden-xs" href="{% post_url 2007-09-27-wpf-title-animator %}">
-        <img class="media-object" src="{{ site.baseurl }}/assets/pages/projects/title/titleanimator_thumb.png" />
+        <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/projects/title/titleanimator_thumb.png" />
     </a>
     <div class="media-body section-list-body">
         <h3><a href="{% post_url 2007-09-27-wpf-title-animator %}">
