@@ -5,12 +5,7 @@ title: Employment History
 nav: portfolio
 ---
 
-This section presents my employment history since starting university in September 2004. I currently work for [Carnegie
-Technologies](http://carnegietechnologies.com), a communications technology company with offices in Kitchener-Waterloo,
-Ontario, San Antonio, Texas, and Belgrade, Serbia.
-
-Previously, I spent co-op work terms at Microsoft, Systemgroup, GTAA, and Hydro One during my Bachelor of Applied
-Science in Computer Engineering at the University of Waterloo.
+This section presents my employment history since starting university in September 2004.
 
 <div class="post-img-left top-h hidden-xs">
     <img style="width: 260px" src="{{ site.baseurl }}/assets/pages/portfolio/employment/EmploymentHistory.png"/>
@@ -18,13 +13,24 @@ Science in Computer Engineering at the University of Waterloo.
 
 ## Carnegie Technologies
 
-Pravala Networks joined the Carnegie Technologies family in February 2016.  Since that time, my responsibilities have
-grown to include management of Carnegie's entire North America software development team, and I work closely with our
-European development, QA, and Operations teams to build Carnegie's Network Convergence Platform™.
+My role at Carnegie was as Director of Software, supervising the software development for three of Carnegie's
+product lines. I was responsible for defining the engineering culture, designing the development systems and tools,
+the technical hiring process, software architecture, developer coaching and mentoring, and spent a lot of time
+working with Carnegie's hardware, embedded, QA, and DevOps teams to deliver highly scalable end-to-end products.
 
-An extension of what we worked on at Pravala, I now get to solve end-to-end communications problems by combining
-Carnegie's Hi-Fi Voice and Rich Messaging platform with gapless handover, bandwidth aggregation, and Wi-Fi access
-management.
+At Carnegie, my team and I built:
+
+* **Network Convergence Platform**, a set of apps and services that optimized network connectivity by selecting the best network
+available to your smartphone or aggregated LTE and Wi-Fi together for a faster, more reliable connection
+* **SatBridge**, a cloud-connected satellite terminal that provided local calling and messaging, follow-me-roaming
+over satellite, traffic shaping and filtering, and SOS
+* **Longview IoT**, an end-to-end system consisting of sensors, gateways, cloud services, and apps that together provided
+an "Internet of Things network in a box"
+
+The key technologies we used to deliver those products were Android/iOS, Kubernetes/Helm, Docker, AWS, Kafka, RabbitMQ/Mosquitto,
+node.js, Cassandra, PostgresSQL, Angular/React, Cordova, Linphone, Golang, and TypeScript - many of which I worked with personally.
+
+The engineering team at Carnegie was disbanded in February 2020 after the product lines we supported were shut down.
 
 ## Pravala Networks
 
@@ -53,7 +59,7 @@ connections without  interrupting running applications.  Or, we can increase the
 aggregating together multiple connections - LTE + Wi-Fi, for instance.  Pravala's platform is used by VoIP providers and
 automotive manufacturers to ensure seamless uninterrupted connectivity to devices on the move.
 
-At Pravala I manage and develop our Android, Windows, and Web UIs, our web services, and the architecture for the first
+At Pravala I managed and developed Android, Windows, and Web UIs, web services, and the architecture for the first
 category of products (network management and selection).
 
 

@@ -8,16 +8,16 @@ sitemap:
 ---
 
 <div class="media section-list" style="margin-top: -15px">
-    <a class="pull-left hidden-xs" href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2016.10.pdf">
+    <a class="pull-left hidden-xs" href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2020.02.pdf">
         <img class="media-object section-list-thumbnail" src="{{ site.baseurl }}/assets/pages/portfolio/resume/resume_thumb.png" />
     </a>
     <div class="media-body section-list-body">
-        <h3><a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2016.10.pdf">Résumé</a></h3>
+        <h3><a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2020.02.pdf">Résumé</a></h3>
         <p>
-            <a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2016.10.pdf">My résumé</a>
+            <a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-Resume-2020.02.pdf">My résumé</a>
             contains a compact description of my professional experience. Those looking for an exhaustive
             version of my professional and academic experience are best served by
-            <a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-CV-2016.10.pdf">my CV</a>.
+            <a href="{{ site.baseurl }}/assets/pages/portfolio/resume/Nicholas-Armstrong-CV-2020.02.pdf">my CV</a>.
         </p>
     </div>
 </div>

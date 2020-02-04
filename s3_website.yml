@@ -17,7 +17,7 @@ redirects:
     about/contact/index.html: about/index.html
 
 # Cloudfront settings
-cloudfront_distribution_id: E1X56ZMHGRR11I
+cloudfront_distribution_id: <%= ENV['WEBSITE_CF_DISTRO'] %>
 cloudfront_distribution_config:
    default_cache_behavior:
      min_TTL: <%= 60 * 60 %>
