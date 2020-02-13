@@ -13,8 +13,8 @@
 <div class="blog-masthead-color hidden-print">
     <div class="container">
         <nav class="blog-nav">
-            <a class="blog-nav-item {% if page.url == '/index.html' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
-            <a class="blog-nav-item {% if page.nav == 'blog' %}active{% endif %}" href="{{ '/blog' | prepend: site.baseurl }}/">Blog</a>
+            <a class="blog-nav-item {% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+            <a class="blog-nav-item {% if page.nav == 'blog' or (page.nav == nil and page.url != '/') %}active{% endif %}" href="{{ '/blog' | prepend: site.baseurl }}/">Blog</a>
             <a class="blog-nav-item {% if page.nav == 'portfolio' %}active{% endif %}" href="{{ '/portfolio' | prepend: site.baseurl }}/">Portfolio</a>
             <a class="blog-nav-item {% if page.nav == 'projects' %}active{% endif %}" href="{{ '/projects' | prepend: site.baseurl }}/">Projects</a>
             <a class="blog-nav-item {% if page.nav == 'about' %}active{% endif %}" href="{{ '/about' | prepend: site.baseurl }}/">About</a>

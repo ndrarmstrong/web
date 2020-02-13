@@ -2,6 +2,7 @@
 layout: page
 published: true
 title: There's nothing here :(
+permalink: /404
 sitemap:
     exclude: true
 ---

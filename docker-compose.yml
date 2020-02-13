@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web-dev:
+    build:
+      context: .
+    image: web-dev:latest
+    hostname: web-dev
+    network_mode: host
+    volumes:
+      - ./:/srv/jekyll/web

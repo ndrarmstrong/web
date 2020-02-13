@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Nicholas on Channel 9!
+excerpt: Welcome to everyone coming across this blog after seeing me speak with Adam Kinney about photoSuru.
 ---
 
 Welcome to everyone coming across this blog after seeing me speak with Adam Kinney about <a

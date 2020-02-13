@@ -2,12 +2,14 @@
 layout: post
 published: true
 title: ! 'XAML: Not Just for UI (part II)'
+excerpt: ! 'Continuing from part 1 in the series, this post describes some of the
+tricky bits for implementing your own XAML-based test data loading infrastructure.'
 ---
 
 Continuing from [part 1]({% post_url 2009-07-12-xaml-not-just-for-ui %}) in the series, this post describes some of the
 tricky bits for implementing your own XAML-based test data loading infrastructure.
 
-For those that haven't read part I, the story to this point is that XAML can be used to do some things that are
+For those that haven't read [part 1]({% post_url 2009-07-12-xaml-not-just-for-ui %}), the story to this point is that XAML can be used to do some things that are
 completely unrelated to user interfaces -- like loading test data -- and that some of the benefits that XAML provides to
 WPF it also provides in other scenarios as well. I'd suggest
 [heading on over]({% post_url 2009-07-12-xaml-not-just-for-ui %}) and giving it a quick scan if you haven't done so yet.
