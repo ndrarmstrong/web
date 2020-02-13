@@ -42,7 +42,7 @@ module.exports = function (grunt) {
         // Build customized bootstrap
         subgrunt: {
             bootstrap: {
-                'bootstrap-3.2.0' : ['dist-css']
+                'bootstrap-3' : ['dist-css']
             }
         },
 
@@ -50,7 +50,7 @@ module.exports = function (grunt) {
         concat: {
             "assets-css": {
                 src: [
-                    'bootstrap-3.2.0/dist/css/bootstrap.css',
+                    'bootstrap-3/dist/css/bootstrap.css',
                     'assets-build/css/font-awesome.css',
                     'assets-build/css/syntax-github.css',
                     'assets-build/css/blog.css'],
