@@ -2,6 +2,16 @@
 
 Sources for NicholasArmstrong.com
 
+## Checkout
+
+To checkout:
+
+```
+git clone git@github.com:ndrarmstrong/web.git
+cd web
+git submodule update --init
+```
+
 ## Development container
 
 To build the development container:

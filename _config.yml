@@ -10,7 +10,7 @@ paginate: 10
 paginate_path: "blog/page/:num"
 
 # Build settings
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 markdown: kramdown
 permalink: /:year/:month/:title/
 exclude: [bootstrap-3, Gruntfile.js, node_modules, package.json, package-lock.json, README.md, assets-copy, assets-build, tools, s3_website.yml, .env, docker.env, Dockerfile, docker-compose.yml]
