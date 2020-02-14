@@ -45,3 +45,22 @@ To build release version:
 ```
 grunt release
 ```
+
+## Deploy to S3/Cloudfront
+
+Make sure there is a `.env` file in the root directory with the following variables filled in:
+
+```
+export WEBSITE_S3_BUCKET=
+export WEBSITE_S3_ID=
+export WEBSITE_S3_SECRET=
+export WEBSITE_CF_DISTRO=
+```
+
+Then:
+
+```
+grunt deploy
+```
+
+This will build and upload the release version of the website, and invalidate the distribution.
