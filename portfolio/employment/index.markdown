@@ -72,18 +72,18 @@ list](http://blogs.msdn.com/jaimer/pages/wpf-bloggers.aspx). Within WPF, I spent
 responsible for layout, text, and other related items; when I was there, they were putting most of their effort into the
 [Syndicated Client Experiences](http://windowsclient.net/wpf/starter-kits/sce.aspx) (SCE) starter kit.
 
-My first term with Microsoft was spent developing [photoSuru](http://www.photosuru.com). Though the SCE
-starter kit was seeing some adoption in the newspaper community, developers at large were largely passing it by as too
-different from their scenarios. In addition, within WPF there was a need for applications that could be used to test and
-promote the new features of .NET 3.5 SP1. My task was to develop photoSuru - originally the 'SCE Photo Viewer' - to fill
-both these needs; a sample that could demonstrate the features of WPF and serve as a sample to the broader rich media
-developer community. As the primary developer for this task, it was my through my efforts that the SCE starter kit,
-designed for making newspapers easy to read on computers, was transformed into photoSuru, an application that made
-browsing a subscription of photos, online or offline, an easy task. The WPF testing team soon adapted photoSuru for
-their use, and it was used to show off bitmap effects in WPF at MIX 2008. While the PM team began their efforts to ship
-the photoSuru source code - a good portion of it mine! - to the development community near the end of my term, I built
-'photoSuru 360', a Microsoft Surface optimized version of photoSuru as a way of exploring code sharing scenarios between
-regular and Surface versions of WPF applications.
+My first term with Microsoft was spent developing [photoSuru](http://channel9.msdn.com/shows/Continuum/PhotoSuru/).
+Though the SCE starter kit was seeing some adoption in the newspaper community, developers at large were largely passing
+it by as too different from their scenarios. In addition, within WPF there was a need for applications that could be
+used to test and promote the new features of .NET 3.5 SP1. My task was to develop photoSuru - originally the 'SCE Photo
+Viewer' - to fill both these needs; a sample that could demonstrate the features of WPF and serve as a sample to the
+broader rich media developer community. As the primary developer for this task, it was my through my efforts that the
+SCE starter kit, designed for making newspapers easy to read on computers, was transformed into photoSuru, an
+application that made browsing a subscription of photos, online or offline, an easy task. The WPF testing team soon
+adapted photoSuru for their use, and it was used to show off bitmap effects in WPF at MIX 2008. While the PM team began
+their efforts to ship the photoSuru source code - a good portion of it mine! - to the development community near the end
+of my term, I built 'photoSuru 360', a Microsoft Surface optimized version of photoSuru as a way of exploring code
+sharing scenarios between regular and Surface versions of WPF applications.
 
 Returning to Microsoft for a second term - this time as a Program Manager - saw my job responsibilities change, but
 still revolve around photoSuru. As a PM I was given the responsibility of getting photoSuru out the door and into
@@ -95,13 +95,12 @@ product released simultaneously with photoSuru, and organizing a whole bunch of 
 mention. And that was just the second half of my term!
 
 I spent the first half of my second term managing the development of a sample demonstrating the new features available
-with WPF and .NET 4.0 on Windows 7 for [Scott Guthrie's](http://weblogs.asp.net/scottgu/) keynote at PDC
-2008. Luckily, we did not have to start from scratch - photoSuru provided a great base - but that still meant managing a
-small team of developers (and an external vendor) in order to add a ribbon, multi-touch features, and integration with
-the new Windows 7 taskbar, writing specifications for all of the above, building the demo script, and reviewing the
-newly constructed sample frequently with Scott. I also flew down to Los Angeles to make sure the demo - shown
-to some 6,000+ attendees and thousands more [on the web](http://channel9.msdn.com/pdc2008/KYN02/) - went off
-without a hitch.
+with WPF and .NET 4.0 on Windows 7 for [Scott Guthrie's](http://weblogs.asp.net/scottgu/) keynote at PDC 2008. Luckily,
+we did not have to start from scratch - photoSuru provided a great base - but that still meant managing a small team of
+developers (and an external vendor) in order to add a ribbon, multi-touch features, and integration with the new Windows
+7 taskbar, writing specifications for all of the above, building the demo script, and reviewing the newly constructed
+sample frequently with Scott. I also flew down to Los Angeles to make sure the demo - shown to some 6,000+ attendees and
+thousands more [on the web](http://channel9.msdn.com/pdc2008/KYN02/) - went off without a hitch.
 
 
 ## Systemgroup
