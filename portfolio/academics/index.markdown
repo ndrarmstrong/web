@@ -83,6 +83,6 @@ buying a furnace (it's a long story).
 ## Courses Not Allowed to be Engineering
 
 Engineering also carries the curious requirement that a certain number of courses *must not be* engineering, in order to
-"broaden our horizons". Since that was the intent, I decided to take it to the limit, taking a course in the history of
+"broaden our horizons". Since that was the intent, I decided to take it to the limit, taking a course in the history of
 Christianity, one in macroeconomics, one in information technology in society, one in public speaking, and one about the
 music used in movies.

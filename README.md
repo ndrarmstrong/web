@@ -46,7 +46,7 @@ To build release version:
 grunt release
 ```
 
-## Deploy to S3/Cloudfront
+## Deploy to S3/CloudFront
 
 Make sure there is a `.env` file in the root directory with the following variables filled in:
 
